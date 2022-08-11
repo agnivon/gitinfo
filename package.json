@@ -1,0 +1,21 @@
+{
+  "name": "gitinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.mjs",
+    "dev": "nodemon ./src/app.mjs"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Agnivo Neogi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
